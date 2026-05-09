@@ -7,7 +7,7 @@ import numpy as np
 # !! 파일 이름은 대소문자까지 일치
 #df = pd.read_csv('D:\OneDrive\Data_ML\PeriodicTable\Data_in\periodictable_0509.CSV')
 #df = pd.read_csv(r'D:\OneDrive\Data_ML\PeriodicTable\Data_in\periodictable_0509.CSV', encoding='cp949')
-df = pd.read_csv('n\PeriodicTable_0509.CSV', encoding='cp949')
+df = pd.read_csv('PeriodicTable_0509.CSV', encoding='cp949')
 
 
 # 2. 웹 화면 설정
