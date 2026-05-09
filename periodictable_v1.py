@@ -5,7 +5,7 @@ import numpy as np
 
 # 1. 데이터 불러오기
 #df = pd.read_csv('D:\OneDrive\Data_ML\PeriodicTable\Data_in\periodictable_0509.CSV')
-df = pd.read_csv(r'D:\OneDrive\Data_ML\PeriodicTable\Data_in\periodictable_0509.CSV', encoding='cp949')
+df = pd.read_csv(r'D:\periodictable_0509.CSV', encoding='cp949')
 # 2. 웹 화면 설정
 st.title("🧪 학생들을 위한 3D 원소 성질 시각화")
 column_to_viz = st.selectbox("시각화할 성질을 선택하세요", 
